@@ -1,11 +1,6 @@
-import "./App.css";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import { MyElements } from "./hp.jsx"
 
-function App() {
-	return (
-		<div className="App">
-			<h1> Hello World! </h1>
-		</div>
-	);
-}
+createRoot(document.getElementById("root")).render(<MyElements />);
 
-export default App;
