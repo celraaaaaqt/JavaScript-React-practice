@@ -1,5 +1,5 @@
-import { Button } from "./Button";
-
+import { Button } from "./button";
+import { Ternary } from "./Ternary";
 export function Car() {
 	const infos = {
 		name: "Honda",
@@ -20,6 +20,7 @@ export function Car() {
 			<p> It has a power of: {power.power}%. </p>
 			<p> It has a hp of: {power.hp}%. </p>
 			<Button />
+			<Ternary />
 		</div>
 	);
 }
