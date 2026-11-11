@@ -1,5 +1,6 @@
 import { Button } from "./button";
 import { Ternary } from "./Ternary";
+
 export function Car() {
 	const infos = {
 		name: "Honda",
