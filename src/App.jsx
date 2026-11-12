@@ -4,6 +4,7 @@ import { Car } from "./components/car.jsx";
 import { Button } from "./components/button.jsx";
 import { ParentComponent } from "./components/CinC.jsx";
 import { PropsArray } from "./components/PropsArray.jsx";
+import { Parent } from "./components/PropsChildren.jsx";
 
 createRoot(document.getElementById("root")).render(
 	<div>
@@ -11,5 +12,6 @@ createRoot(document.getElementById("root")).render(
 		<Button />
 		<ParentComponent />
         <PropsArray />
+        <Parent />
 	</div>,
 );
