@@ -1,21 +1,21 @@
 export function Goal(props) {
-    const isGoal = props.isGoal;
+	const isGoal = props.isGoal;
 
-    if(isGoal) {
-        return <MadeGoal />
-    }
-        return <MissedGoal />
+	if (isGoal) {
+		return <MadeGoal />;
+	}
+	return <MissedGoal />;
 }
 
-export function Goal2({isGoal}) {
-    return isGoal ? <MadeGoal /> : <MissedGoal />;
+export function Goal2({ isGoal }) {
+	return isGoal ? <MadeGoal /> : <MissedGoal />;
 }
 function MissedGoal() {
-    return <h1>MISSED!</h1>
+	return <h1>MISSED!</h1>;
 }
 
 function MadeGoal() {
-    return <h1>Goal!</h1>
+	return <h1>Goal!</h1>;
 }
 
 //? Use props when accessing multiple properties through the object

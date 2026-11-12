@@ -8,6 +8,7 @@ import { Parent } from "./components/PropsChildren.jsx";
 import { Football } from "./components/Events.jsx";
 import { Goal, Goal2 } from "./components/conditionals.jsx";
 import { Vehicle } from "./components/operators.jsx";
+import { MyCars } from "./components/ReactLists.jsx";
 
 createRoot(document.getElementById("root")).render(
 	<div>
@@ -18,7 +19,8 @@ createRoot(document.getElementById("root")).render(
         <Parent />
         <Football />
         <Goal isGoal={true} />
-        <Goal2 isGoal={false} />
+        <Goal2 isGoal={true} />
         <Vehicle brand="Tesla"/>
+        <MyCars />
 	</div>,
 );
