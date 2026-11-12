@@ -6,6 +6,7 @@ import { ParentComponent } from "./components/CinC.jsx";
 import { PropsArray } from "./components/PropsArray.jsx";
 import { Parent } from "./components/PropsChildren.jsx";
 import { Football } from "./components/Events.jsx";
+import { Goal } from "./components/conditionals.jsx";
 
 createRoot(document.getElementById("root")).render(
 	<div>
@@ -15,5 +16,6 @@ createRoot(document.getElementById("root")).render(
         <PropsArray />
         <Parent />
         <Football />
+        <Goal isGoal={true}/>
 	</div>,
 );
