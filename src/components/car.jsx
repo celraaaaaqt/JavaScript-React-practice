@@ -20,7 +20,6 @@ export function Car() {
 			</h1>
 			<p> It has a power of: {power.power}%. </p>
 			<p> It has a hp of: {power.hp}%. </p>
-			<Button />
 			<Ternary />
 		</div>
 	);
