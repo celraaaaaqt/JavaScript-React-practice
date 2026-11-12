@@ -5,6 +5,7 @@ import { Button } from "./components/button.jsx";
 import { ParentComponent } from "./components/CinC.jsx";
 import { PropsArray } from "./components/PropsArray.jsx";
 import { Parent } from "./components/PropsChildren.jsx";
+import { Football } from "./components/Events.jsx";
 
 createRoot(document.getElementById("root")).render(
 	<div>
@@ -13,5 +14,6 @@ createRoot(document.getElementById("root")).render(
 		<ParentComponent />
         <PropsArray />
         <Parent />
+        <Football />
 	</div>,
 );
